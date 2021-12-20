@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>二舍请假</title>
+    <link type="text/css" rel="styleSheet" href="./css/index.css"/>
+</head>
+<body>
+    <div class="index">
+        <div class="name">
+            <label for="name">请假人：</label><input id="name" type="text">
+        </div>
+        <div class="time">
+            <label for="date">请假时间：</label><input id="date" type="date" required><input id="begin-time" type="time" required>-<input id="end-time" type="time" required>
+        </div>
+        <div class="reason">
+            <label for="reason">请假原因：</label><input id="reason" type="text">
+        </div>
+        <div class="send-button">
+            <button id="send">
+                发送
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
